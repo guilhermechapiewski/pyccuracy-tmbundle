@@ -32,7 +32,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^\s*(I|And I|E|E eu)\b</string>
+			<string>^\s*(I|And I|Eu|E eu)\b</string>
 			<key>name</key>
 			<string>keyword.other.pyccuracy</string>
 		</dict>
