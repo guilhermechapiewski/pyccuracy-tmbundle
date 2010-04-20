@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>acc</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>~@P</string>
+	<key>name</key>
+	<string>Pyccuracy</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\b(As a|I want to|So that|Como um|Eu quero|Para)\b</string>
+			<key>name</key>
+			<string>constant.language.pyccuracy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(Scenario|Cenário)( \d+)\b</string>
+			<key>name</key>
+			<string>entity.language.pyccuracy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(Given|When|Then|Dado que|Quando|Então)\b</string>
+			<key>name</key>
+			<string>entity.other.pyccuracy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\s*(I|And I|E|E eu)\b</string>
+			<key>name</key>
+			<string>keyword.other.pyccuracy</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?&lt;!\$)(#)(?!\{).*$\n?</string>
+			<key>name</key>
+			<string>comment.pyccuracy</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>end</key>
+			<string>"</string>
+			<key>name</key>
+			<string>string.quoted.double.pyccuracy</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\.</string>
+					<key>name</key>
+					<string>constant.character.escape.pyccuracy</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.acc</string>
+	<key>uuid</key>
+	<string>1F196352-C1A0-49BA-BB19-3D42D7C6B74F</string>
+</dict>
+</plist>
