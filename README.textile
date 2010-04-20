@@ -2,6 +2,10 @@ h1. pyccuracy-tmbundle
 
 This is a "Pyccuracy":http://pyccuracy.org bundle for "TextMate":http://macromates.com.
 
+h2. Screenshots
+
+  * "example.png":http://github.com/guilhermechapiewski/pyccuracy-tmbundle/raw/master/example.png
+
 h2. Installing
 
   * Go to the TextMate Bundles directory:
