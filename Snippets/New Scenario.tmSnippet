@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>Scenario ${1:X} - ${2:Scenario description}
+Given
+	${3:# pre conditions}
+When
+	${4:# something happens}
+Then
+	${5:# something you expect}</string>
+	<key>name</key>
+	<string>New Scenario</string>
+	<key>tabTrigger</key>
+	<string>scenario</string>
+	<key>uuid</key>
+	<string>43F9EAC3-F37A-4001-A5D4-D3911FA4BD78</string>
+</dict>
+</plist>

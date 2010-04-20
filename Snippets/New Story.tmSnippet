@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>As a ${1:actor}
+I want to ${2:have a feature}
+So that ${3:I have business value}
+
+Scenario 1 - ${4:Scenario description}
+Given
+	${5:# pre conditions}
+When
+	${6:# something happens}
+Then
+	${7:# something you expect}</string>
+	<key>name</key>
+	<string>New Story</string>
+	<key>tabTrigger</key>
+	<string>story</string>
+	<key>uuid</key>
+	<string>F8A2656E-DBDF-4A62-B56E-A20FA4A8D5C0</string>
+</dict>
+</plist>
