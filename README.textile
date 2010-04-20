@@ -1,0 +1,17 @@
+h1. pyccuracy-tmbundle
+
+This is a "Pyccuracy":http://pyccuracy.org bundle for "TextMate":http://macromates.com.
+
+h2. Installing
+
+  * Go to the TextMate Bundles directory:
+<pre><code>$ cd ~/Library/Application\ Support/TextMate/Bundles/</code></pre>
+
+  * Clone the repository there:
+<pre><code>$ git clone git://github.com/guilhermechapiewski/pyccuracy-tmbundle.git Pyccuracy.tmbundle</code></pre>
+
+  * Reload TextMate Bundles (or open/close TextMate) to apply changes.
+
+Obviously you can optionally clone the repository wherever you want and create a symbolic link in the TextMate Bundles directory to your clone.
+
+You can also "download the source code":http://github.com/guilhermechapiewski/pyccuracy-tmbundle/archives/master instead of cloning the repository.
