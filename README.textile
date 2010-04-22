@@ -4,7 +4,9 @@ This is a "Pyccuracy":http://pyccuracy.org bundle for "TextMate":http://macromat
 
 h2. Screenshots
 
-  * "example.png":http://github.com/guilhermechapiewski/pyccuracy-tmbundle/raw/master/example.png
+  * "Code coloring":http://github.com/guilhermechapiewski/pyccuracy-tmbundle/raw/master/screenshots/code_coloring.png
+  * "Menu":http://github.com/guilhermechapiewski/pyccuracy-tmbundle/raw/master/screenshots/menu.png
+  * "Story snippet":http://github.com/guilhermechapiewski/pyccuracy-tmbundle/raw/master/screenshots/story_snippet_.png
 
 h2. Installing
 
