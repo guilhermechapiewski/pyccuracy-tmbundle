@@ -2,6 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>3EACD8B4-8C11-4F80-8F1C-AD3C50B0D081</string>
+			<string>------------------------------------</string>
+			<string>F8A2656E-DBDF-4A62-B56E-A20FA4A8D5C0</string>
+			<string>43F9EAC3-F37A-4001-A5D4-D3911FA4BD78</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
 	<key>name</key>
 	<string>Pyccuracy</string>
 	<key>uuid</key>
