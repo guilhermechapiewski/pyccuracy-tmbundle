@@ -19,7 +19,7 @@ pyccuracy_help --language en-us --term $res</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
-	<string>~@h</string>
+	<string>@h</string>
 	<key>name</key>
 	<string>Help</string>
 	<key>output</key>
