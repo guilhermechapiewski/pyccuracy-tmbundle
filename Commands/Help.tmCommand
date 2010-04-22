@@ -13,7 +13,7 @@
 
 res=$(tail -n1 &lt;&lt;&lt;"$res")
 
-pyccuracy_help --language en-us --term $res</string>
+if [ "`which pyccuracy_help`" == "" ]; then echo "You need Pyccuracy version 1.2.15 or higher to use this command."; else pyccuracy_help --language en-us --term $res; fi</string>
 	<key>fallbackInput</key>
 	<string>document</string>
 	<key>input</key>
