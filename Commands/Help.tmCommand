@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>res=$(CocoaDialog inputbox --title "Pyccuracy Help" \
+    --informative-text "Please inform an element (e.g.: 'textbox'):" \
+    --button1 "Go" --button2 "Cancel")
+
+[[ $(head -n1 &lt;&lt;&lt;"$res") == "2" ]] &amp;&amp; exit_discard
+
+res=$(tail -n1 &lt;&lt;&lt;"$res")
+
+pyccuracy_help --language en-us --term $res</string>
+	<key>fallbackInput</key>
+	<string>document</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@h</string>
+	<key>name</key>
+	<string>Help</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>uuid</key>
+	<string>3EACD8B4-8C11-4F80-8F1C-AD3C50B0D081</string>
+</dict>
+</plist>
