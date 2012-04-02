@@ -6,6 +6,10 @@
 	<array>
 		<string>acc</string>
 	</array>
+	<key>foldingStartMarker</key>
+	<string>\b(Scenario|Cenário)( \d+).*\b</string>
+	<key>foldingStopMarker</key>
+	<string>(^$.*)</string>
 	<key>keyEquivalent</key>
 	<string>~@P</string>
 	<key>name</key>
